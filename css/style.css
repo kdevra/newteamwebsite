@@ -9,31 +9,29 @@ ul {
 	list-style: none;
 	padding-left: 0;
 }
-button {
-	height: 46px;
-	padding: 0 30px !important;
-	line-height: 0 !important;
-	letter-spacing: 1px !important;
-	font-weight: 500 !important;
-	font-size: 13px !important;
-	box-shadow: none !important;
-}
-button.sub-btn {
-	height: 37px;
-	padding: 0 30px !important;
-	line-height: 0 !important;
-	letter-spacing: 1px !important;
-	font-weight: 500 !important;
-	font-size: 11px !important;
-	box-shadow: none !important;
-	border: 1px solid #e5e5e5 !important;
-}
-button.sub-btn:hover, button.sub-btn:active, button.sub-btn:visited, button.sub-btn:active:hover, button.sub-btn:focus {
-	border: 1px solid #00abc5 !important;
-	background: transparent;
-}
 .btn {
-	border-radius: 0 !important;
+	height: 46px;
+	padding: 0 30px ;
+	line-height: 0 ;
+	letter-spacing: 1px ;
+	font-weight: 500 ;
+	font-size: 13px ;
+	box-shadow: none;
+	border-radius: 0;
+}
+.sub-btn {
+	height: 37px;
+	padding: 0 30px ;
+	line-height: 0 ;
+	letter-spacing: 1px ;
+	font-weight: 500 ;
+	font-size: 11px ;
+	box-shadow: none ;
+	border: 1px solid #e5e5e5;
+}
+.sub-btn:hover, .sub-btn:active, .sub-btn:visited, .sub-btn:active:hover, .sub-btn:focus {
+	border: 1px solid #00abc5;
+	background: transparent;
 }
 .container {
 	max-width: 1170px;
@@ -187,14 +185,6 @@ a {
 	position: relative;
 	height: 805px;
 }
-/*.banner {
-	background: url(../images/banner-bg.png) no-repeat;
-	height: 834px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 850px;
-}*/
 .navbar-inverse {
     border-color: #efefef;
 }
@@ -450,13 +440,13 @@ a {
 	transition: all 0.3s;
 	min-height: 150px;
 }
-.sol-cmn-box:hover button {
+.sol-cmn-box:hover .btn {
 	color: #00abc5;
 }
-.sol-cmn-box button {
-	border: none !important;
-	height: 20px !important;
-	font-size: 11px !important;
+.sol-cmn-box .btn {
+	border: none;
+	height: 20px;
+	font-size: 11px;
 }
 .sol-cmn-box button:active:hover, .sol-cmn-box button:hover, .sol-cmn-box button:active, .sol-cmn-box button:focus {
 	background-color: transparent;
@@ -888,18 +878,18 @@ footer .bottom {
 	margin-bottom: 70px;
 	max-width: 940px;
 }
-.banner-content button {
-	color: #00abc1 !important;
+.banner-content .btn {
+	color: #00abc1;
 	font-size: 13px;
 	font-weight: 500;
-	border: solid 1px #00abc1 !important;
+	border: solid 1px #00abc1;
 	padding: 15px 32px;
 	letter-spacing: 2px;
 }
-.banner-content button:focus, .banner-content button:hover {
-	border: solid 1px #00abc1 !important;
-	background-color: #00abc1 !important;
-	color: #fff !important;
+.banner-content .btn:focus, .banner-content .btn:hover {
+	border: solid 1px #00abc1;
+	background-color: #00abc1;
+	color: #fff;
 }
 .glassdoor-logo {
 	list-style: none;
@@ -1003,21 +993,25 @@ footer .bottom {
 	margin-bottom: 50px;
 	line-height: 1.5;
 }
-.we-are-hiring-cmn button, .header-fixd-btn button {
+.we-are-hiring-cmn .btn {
 	background: linear-gradient(45deg, #00abc5, #dfcf18);
-	color: #fff !important;
-	border: 1px solid #fff !important;
+	color: #fff;
+	border: 1px solid #fff;
 	text-transform: none;
-	padding: 30px;
-	height: 46px;
 }
-.header-fixd-btn button {
+.header-fixd-btn .btn {
+	background: linear-gradient(45deg, #00abc5, #dfcf18);
+	color: #fff;
+	border: 1px solid #fff;
+	text-transform: none;
+}
+.header-fixd-btn .btn {
 	border: none;
 	text-transform: uppercase;
 	font-size: 13px;
 }
-.we-are-hiring button:focus, .we-are-hiring button:hover {
-	border: solid 1px #fff !important;
+.we-are-hiring .btn:focus, .we-are-hiring .btn:hover {
+	border: solid 1px #fff;
 }
 .heroes-at-team .carousel-inner.onebyone-carosel {
 	margin: auto;
@@ -1054,15 +1048,15 @@ footer .bottom {
 	border-radius: 0;
 }
 .li-btn {
-	background-color: #0079b8 !important;
+	background-color: #0079b8;
 	margin-left: 10px;
 }
 .fb-btn {
-	background-color: #39579a !important;
+	background-color: #39579a;
 	margin-left: 10px;
 }
 .tw-btn {
-	background-color: #00aaef !important;
+	background-color: #00aaef;
 }
 .btn-box i {
 	margin-right: 5px;
@@ -1136,8 +1130,8 @@ footer .bottom {
 	background-size: cover;
 	background-position: center center;
 }
-.career-team p {
-	font-size: 13px !important;
+.career-team .text-sec p {
+	font-size: 13px;
 }
 .career-team .vid-sec {
 	max-width: 515px;
@@ -1174,9 +1168,9 @@ footer .bottom {
 .det-top-bx {
 	max-width: 93%;
 }
-.job-side-sec button {
+.job-side-sec .btn {
 	padding: 15px 70px;
-	margin-left: 0 !important;
+	margin-left: 0;
 	margin-bottom: 15px;
 	letter-spacing: 1px;
 }
@@ -1195,8 +1189,8 @@ footer .bottom {
 .job-side-left-sec .form .btn-box, .form-modal .btn-box {
 	margin-top: 0;
 }
-.job-side-left-sec .form button, .form-modal button {
-	background-color: #00abc5 !important;
+.job-side-left-sec .form .btn, .form-modal .btn {
+	background-color: #00abc5;
 	color: #fff !important;
 	margin-bottom: 0;
 }
@@ -1237,7 +1231,7 @@ footer .bottom {
 	margin-left: .1%;
 }
 .exp-n-fres {
-	color: #fff !important;
+	color: #fff;
 	text-align: center
 }
 .exp-n-fres h3 {
@@ -1257,26 +1251,26 @@ footer .bottom {
 	max-width: 950px;
 	margin: 0 auto;
 }
-.jobs-header button {
-	margin-left: 15px !important;
-	margin-bottom: 20px !important;
-	border: 1px solid #eaeaea !important;
+.jobs-header .btn {
+	margin-left: 15px;
+	margin-bottom: 20px;
+	border: 1px solid #eaeaea;
 	transition: all .3s;
 	font-size: 14px;
 	font-weight: 500;
 	letter-spacing: 1px;
 }
-.jobs-header button:first-child {
-	margin-left: 0px !important;
+.jobs-header .btn:first-child {
+	margin-left: 0px;
 }
-.jobs-header button:last-child {
-	margin-bottom: 0px !important;
+.jobs-header .btn:last-child {
+	margin-bottom: 0px;
 }
-.jobs-header button:active, .jobs-header button:hover, .btn.active {
-	border: 1px solid #00abc4 !important;
-	background-color: #fff !important;
+.jobs-header .btn:active, .jobs-header .btn:hover, .btn.active {
+	border: 1px solid #00abc4;
+	background-color: #fff;
 }
-.jobs-header button:hover {
+.jobs-header .btn:hover {
 	transform: translateY(-3px);
 }
 .cmn-card {
@@ -1296,15 +1290,10 @@ footer .bottom {
 .cmn-card .btn-box {
 	margin-top: 30px;
 }
-.cmn-card .btn-box button {
-	font-size: 13px;
-	font-weight: 500;
-	letter-spacing: 1px;
+.cmn-card .btn-box .btn {
 	background-color: #00abc5;
 	width: 100%;
-	border: none !important;
-	text-transform: none;
-	margin-bottom: 0;
+	border: none;
 }
 .jobs-card > div {
 	margin-bottom: 25px;
@@ -1568,12 +1557,12 @@ footer .bottom {
 	width: 40%;
 	display: inline-block;
 }
-.con-form button {
+.con-form .btn {
 	background-color: #fff;
 	border-bottom: 3px solid #00abc5;
 	color: #414141;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 9px 0;
-	font-size: 13px !important;
+	font-size: 13px;
 	padding: 13px 30px;
 	float: right;
 }
@@ -1641,11 +1630,11 @@ footer .bottom {
 	line-height: 1.6;
 	margin-top: 0;
 }
-.case-studies-hdr button {
-	letter-spacing: normal!important;
+.case-studies-hdr .btn {
+	letter-spacing: normal;
 }
-.case-studies-hdr button:last-child {
-	margin-bottom: 20px !important;
+.case-studies-hdr .btn:last-child {
+	margin-bottom: 20px;
 }
 .cs-box:hover figcaption, .cs-box:hover i {
 	color: #00abc5;

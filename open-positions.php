@@ -67,7 +67,7 @@ management, handling of corporate tie-ups, maintaining relationship with existin
 
 The ideal candidate should be MBA Graduate or any graduate, Identifying market for Company's Products Generating new business, selling of Infrastructure solutions/ Product,</p>
      		<div class="btn-box">
-     			<a href="job-descriptions.html"><button type="button" class="btn pmd-ripple-effect btn-primary"> Apply Now </button></a>
+     			<a href="job-descriptions.php"><button type="button" class="btn pmd-ripple-effect btn-primary"> Apply Now </button></a>
      		</div>
       		</div>
       	</div>
